@@ -16,13 +16,13 @@ print("The Array is = ",j)
 # Using while loop 
 j = []
 
-o = int(input("Enter the num of elements :"))
+n = int(input("Enter the num of elements :"))
 
 i = 0
 
-while(i < o):
+while(i < n):
     y = int(input(f"Enter the num {i+1} :"))
     j.append(y)
     i += 1
 
-print("The Array is : ",j)
+print("The Array is : ", j)
