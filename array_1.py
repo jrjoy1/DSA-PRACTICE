@@ -11,7 +11,10 @@ for i in range(o):
 print("The Array is = ",j)
 
 '''
+import time
+import sys
 
+start = time.time()
 
 # Using while loop 
 j = []
@@ -24,5 +27,10 @@ while(i < n):
     y = int(input(f"Enter the num {i+1} :"))
     j.append(y)
     i += 1
+end = time.time()
+mem = sys.getsizeof(y)
 
 print("The Array is : ", j)
+
+print(f"The memory used is :{mem} bytes")
+print(f"time taken is :{end - start:.6f}second")
