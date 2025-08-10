@@ -29,6 +29,7 @@ while(i < n):
     i += 1
 end = time.time()
 mem = sys.getsizeof(y)
+ #mem = sys.getsizeof(int)
 
 print("The Array is : ", j)
 
