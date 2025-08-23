@@ -8,7 +8,7 @@ target = 50
 split = len(given_list)
 
 def linear_search(given_list,target):       #create a function with list & targrt
-    for i in range(split):                    #Getting the index of list
+    for i in range(split):                  #Getting the index of list
         if(given_list[i]==target):          #Checking the list element through index with target element
             return i                        #If its equal then return the index number
     return -1                               #Neither -1
