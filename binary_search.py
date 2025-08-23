@@ -1,6 +1,6 @@
 
 arr = [1, 3, 5, 7, 9, 11, 13, 15]
-target = int(input("Enter number from (1-15) to find : "))
+target = 11
 
 
 def binary_search(arr, target):
