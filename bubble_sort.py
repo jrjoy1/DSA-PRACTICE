@@ -18,7 +18,8 @@ def bubble_sort(arr):
             if arr[j] > arr[j + 1]:  # wrong order
 
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]  # swap
-
+            else:
+                continue
     return arr
 
 print("Entered value :", numbers)
