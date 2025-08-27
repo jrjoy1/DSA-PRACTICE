@@ -4,7 +4,7 @@ numbers = list(map(int,user_input.split()))
 
 def selection_sort(arr):
     n = len(arr)
-    for i in range(n):
+    for i in range(n-1):
         min_index = i  # Assume the current position has the smallest value
 
         for j in range(i + 1, n):

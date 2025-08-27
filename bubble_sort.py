@@ -11,7 +11,7 @@ while True:
 
 def bubble_sort(arr):
     n = len(arr)
-    for i in range(n):  # number of passes
+    for i in range(n-1):  # number of passes
         #print("value of i :",i)
         for j in range(0,n-i-1):  # last i elements already sorted
             #print("\n value of j :",j)
