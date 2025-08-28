@@ -1,20 +1,31 @@
 
-user_input ="70 58 42 65 21 11 31 2"
+user_input ="7 1 5 2"
 numbers = list(map(int,user_input.split()))
 
 
-def selection_sort(arr):
+def insertion_sort(arr):
     n = len(arr)
+    print("n :",n)
+
     for i in range(1,n):
+        print("i :",i)
+
         current = arr[i]
+        print("current :",current)
+
         previous = i-1
+        print("Previous :",previous)
+        print("\n")
 
         while previous >= 0 and arr[previous] > current:
+            print("Prev arr : ",arr[previous])
+
             arr[previous+1] = arr[previous]
             previous -= 1
 
         arr[previous+1]=current
+        print("cng :",numbers)
 
 print("before: ",numbers)
-selection_sort(numbers)
+insertion_sort(numbers)
 print("After :",numbers)
